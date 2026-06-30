@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #030712;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    line-clamp: 2;          /* Standard property */
+    -webkit-line-clamp: 2;  /* Current browser support */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
